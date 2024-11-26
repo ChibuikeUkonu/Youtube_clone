@@ -3,6 +3,7 @@
 import React from 'react'
 import { SearchVideos } from '@/util/fetchData'
 import { useState } from 'react'
+import Image from 'next/image'
 
 const SearchBar = () => {
 
@@ -16,7 +17,7 @@ const SearchBar = () => {
 
     const data = await SearchVideos(`search/?query=${query}  
       `)
-      setResult(data)
+      setResult(data.videos)
     console.log(data)
     setLoading(false)
   }
@@ -36,6 +37,18 @@ const SearchBar = () => {
 
 {
   loading ? <p>Loading</p> : null
+}
+
+{
+  
+ result.map((eachItem, index, array)=>(
+  <div key={index}>
+  <h1>{eachItem.title}</h1>
+  <p>{eachItem.number_of_views}</p>
+  <h2>{eachItem.video_length}</h2>
+<img src={eachItem.thumbnails[0].url} alt="image" />
+</div>
+ ))
 }
       
     </div>
