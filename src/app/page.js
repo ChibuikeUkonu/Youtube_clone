@@ -1,10 +1,23 @@
-import React from "react";
-import Navbar from "@/components/Navbar_component/Navbar";
+"use client"
 
+import React, {useState} from "react";
+import Navbar from "@/components/Navbar_component/Navbar";
+import Feeds from "@/components/Navbar_component/MainContent/Feeds";
+import SideBar from "@/components/SideContents/SideBar";
 export default function Home() {
+
+ const [count, setCount] =useState("data")
+
   return (
-  <div>
+  <div className="container page_container">
   <Navbar/>
+
+  <div>
+    <SideBar/>
+    <Feeds cou={count}/>
+  </div>
+
+
   </div>
 
   );
