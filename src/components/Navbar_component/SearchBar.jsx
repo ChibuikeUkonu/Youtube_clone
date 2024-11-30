@@ -8,7 +8,7 @@ import { SearchContext } from '@/contexts/Searchcontext'
 
 const SearchBar = () => {
 
-  const {result, setResult } = useContext(SearchContext)
+  const {result, setResult } = useContext(SearchContext);
 
   const [loading, setLoading] = useState(false)
   //const [result, setResult] = useState([])
@@ -42,7 +42,7 @@ const SearchBar = () => {
   loading ? <p>Loading</p> : null
 }
 
-{
+{/* {
   
  result.map((eachItem, index, array)=>(
   <div key={index}>
@@ -52,7 +52,7 @@ const SearchBar = () => {
 <img src={eachItem.thumbnails[0].url} alt="image" />
 </div>
  ))
-}
+} */}
       
     </div>
 

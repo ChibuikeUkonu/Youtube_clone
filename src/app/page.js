@@ -9,10 +9,10 @@ export default function Home() {
  const [count, setCount] =useState("data")
 
   return (
-  <div className="container page_container">
+  <div className="page_container">
   <Navbar/>
 
-  <div>
+  <div className="con">
     <SideBar/>
     <Feeds cou={count}/>
   </div>

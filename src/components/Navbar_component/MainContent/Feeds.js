@@ -1,14 +1,23 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { SearchContext } from '@/contexts/Searchcontext'
+import styles from './Feeds.module.css'
 
 const Feeds = ({cou}) => {
+  const {result, setResult} = useContext(SearchContext)
   return (
-    <div>
-      My videos
-
-      {/* Accepting prrops */}
-      {cou}
-      {/*End Accepting proops*/}
-    </div>
+    <div className={styles.container}>
+      {
+        result.map((eachItem, index, array)=>(
+          <div key={index} className={styles.content}>
+          <img src={eachItem.thumbnails[0].url} alt="image" />
+         <h1>{eachItem.title}</h1>
+         {/* <p>{eachItem.description}</p> */}
+         <p>{eachItem.video_length}</p>
+         <p>{eachItem.number_of_views}views.{eachItem.published_time}</p>
+        </div>
+         ))
+      }
+      </div>
   )
 }
 
