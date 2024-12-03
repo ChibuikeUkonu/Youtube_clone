@@ -7,9 +7,9 @@ import SearchBar from './SearchBar';
 
 const Navbar = () => {
   return (
-    <div className='flex gap-14 mt-3' >
+    <div className='flex gap-10 mt-3' >
 
-      <div className='flex items-center gap-6 ml-7'>
+      <div className='flex items-center gap-6 ml-3'>
    <RxHamburgerMenu/>
    <YoutubeImage/>
    </div>

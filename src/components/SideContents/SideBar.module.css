@@ -1,0 +1,30 @@
+.SideBar{
+    width:240px;
+    height:100vh;
+
+}
+
+.items{
+    margin-bottom: 10px;
+  }
+  
+  .home{
+    padding: 10px 5px;
+    cursor: pointer;
+  }
+  .homes{
+    padding: 10px 5px;
+    cursor: pointer; 
+  }
+  .home img{
+  padding-left: 10px;
+  }
+  .homes h1{
+ padding-left: 10px;
+  }
+  
+  .homes img{
+     border-radius: 100%; 
+    /* border: solid rgb(72, 70, 70); */
+  }
+  
