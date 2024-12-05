@@ -27,20 +27,39 @@ const SearchBar = () => {
 
 
   return (
-    <div>
+    <div 
+      style={{
+        display:"flex",
+        alignItems: "center",
+        border:"1px solid #ccc",
+        borderRadius:"20px",
+        padding:"5px 10px",
+        width:"460px",
+        marginLeft:"120px"
+      }}>
         <form onSubmit={handleSearch}>
       <input type= "text" placeholder='Search...'
+      style={{
+        flex:1,
+        border:"none",
+        fontSize:"14px",
+        padding:"5px",
+        borderRadius:"20px",
+        backgroundColor:"transparent",
+        width:"400px"
+      }}
        value={query}
        onChange= {(e) =>setQuery(e.target.value)}
        />
-      <button>
-     Search
-      </button>
+      { <button>
+     <img src="./search.png" height={20} width={20} alt="images" />
+      </button> }
     </form>
 
-{
+
+{/* {
   loading ? <p>Loading</p> : null
-}
+} */}
 
 {/* {
   
