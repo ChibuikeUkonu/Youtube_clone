@@ -5,17 +5,17 @@ const MiniSideBar = () => {
   return (
     <div className={styles.SideBar}>
   <div className={styles.items}>
-      <div className={styles.home}>
+      <div className={styles.hom}>
       <Image src='/home.png'width={35} height={35} alt='image'/>
       <h1>Home</h1>
     </div>
 
-   <div className={styles.home}>
+   <div className={styles.shrt}>
       <Image src='/shorts.png'width={30} height={30}alt='image'/>
       <h1>Shorts</h1>
     </div>
 
-    <div className={styles.home}>
+    <div className={styles.play}>
      <Image src='/playlist.png'width={35} height={35}alt='image'/>
      <h1>Subscription</h1>
     </div>
