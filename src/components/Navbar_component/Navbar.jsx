@@ -38,7 +38,6 @@ const Navbar = () => {
 <img src="./notification.png" width={20} alt="" />
 </div>
 </div>
-    
   )
 }
 

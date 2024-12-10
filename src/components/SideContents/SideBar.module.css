@@ -12,13 +12,17 @@
   }
   .hom{
   padding-left: 20px;
+  padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    margin-bottom: 10px;
   }
   .hom:hover{
     background-color: rgb(241, 238, 238);
     border-radius: 5px;
-    padding-top: 7px;
+    /* padding-top: 7px;
     padding-bottom: 7px;
-    padding-right: 7px;
+    padding-right: 7px; */
   }
   .hom h1{
     font-size: small;
@@ -30,6 +34,10 @@
   }
   .shrt{
     padding-left: 20px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    padding-right: 7px;
     cursor: pointer;
   }
   .shrt h1{
@@ -39,12 +47,16 @@
   .shrt:hover{
     background-color: rgb(241, 238, 238);
     border-radius: 5px;
-    padding-top: 7px;
+    /* padding-top: 7px;
     padding-bottom: 7px;
-    padding-right: 7px;
+    padding-right: 7px; */
   }
   .play{
     padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    padding-right: 7px;
     cursor: pointer;
   }
   .play img{
@@ -58,12 +70,15 @@
   .play:hover{
     background-color: rgb(241, 238, 238);
     border-radius: 5px;
-    padding-top: 7px;
+    /* padding-top: 7px;
     padding-bottom: 7px;
-    padding-right: 7px;
+    padding-right: 7px; */
   }
   .homes{
     padding: 10px 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
     cursor: pointer; 
     padding-left: 10px;
   }
@@ -75,8 +90,8 @@
   .homes:hover{
     background-color: rgb(241, 238, 238);
     border-radius: 5px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-right: 7px;
+      /* padding-top: 7px;
+      padding-bottom: 7px;
+      padding-right: 7px; */
   }
   
