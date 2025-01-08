@@ -34,8 +34,8 @@ const SearchBar = () => {
         border:"1px solid #ccc",
         borderRadius:"20px",
         padding:"5px 10px",
-        width:"500px",
-        marginLeft:"160px"
+        width:"600px",
+        marginLeft:"120px"
       }}>
         <form onSubmit={handleSearch}>
       <input type= "text" placeholder='Search...'
@@ -46,7 +46,7 @@ const SearchBar = () => {
         padding:"5px",
         borderRadius:"20px",
         backgroundColor:"transparent",
-        width:"400px"
+        width:"500px"
       }}
        value={query}
        onChange= {(e) =>setQuery(e.target.value)}

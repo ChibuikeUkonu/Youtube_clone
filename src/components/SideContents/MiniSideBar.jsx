@@ -3,6 +3,7 @@ import styles from './SideBar.module.css'
 import Image from 'next/image'
 const MiniSideBar = () => {
   return (
+
     <div className={styles.SideBar}>
   <div className={styles.items}>
       <div className={styles.hom}>

@@ -22,11 +22,15 @@ const Navbar = () => {
       <RxHamburgerMenu onClick={handleChange}/>
         </div>
    <YoutubeImage/>
+   <div className='nig'>
+    <h1>NG</h1>
+   </div>
    </div>
 <div className='image_page'>
 <div>
 <SearchBar/>
 </div>
+<div>
 <div className='image_page1'>
 <img src="./microphone.png" width={20} alt="" />
 </div>
@@ -38,6 +42,8 @@ const Navbar = () => {
 <img src="./notification.png" width={20} alt="" />
 </div>
 </div>
+</div>
+
   )
 }
 
