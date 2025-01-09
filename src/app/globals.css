@@ -20,7 +20,6 @@
   justify-content: flex-end;
   margin-left: 2em;
 }
-
 .image_page{
   display: flex;
   justify-content:space-around;
@@ -64,11 +63,10 @@ margin-left:50px;
   display: flex;
   position: absolute;
   left: 170px;
-  top:7px;
+  top:15px;
 }
 .nig h1{
-  font-weight: 50;
-  font-size: smaller;
+  font-size:xx-small;
 }
 .note :hover{
 background-color: rgb(201, 199, 199);

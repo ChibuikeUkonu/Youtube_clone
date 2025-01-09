@@ -1,19 +1,19 @@
 .everything{
     display: flex;
     width:100%;
-    margin-bottom: 10px;
-    padding: 0px 10px;
+    margin-bottom: 5px;
+    padding: 0px 3px;
     cursor: pointer;
     align-items: center;
     justify-content:flex-start;
-    gap: 8px;
+    gap: 3px;
 }
 .everything h1{
     font-size: small;
     cursor: pointer;
     border-radius: 10px;
-    background-color:#ccc;
-    padding-left: 1rem;
+    background-color:#aba6a6;
+    padding-left: 1em;
     padding-top: 1em;
     padding-right: 1em;
     padding-bottom: 1em;

@@ -60,6 +60,9 @@ const [hoveredVideo, setHoveredVideo] =useState(null)
     <h1>Wealth</h1>
       </div>
       <div>
+        <h1>Graphic Design</h1>
+      </div>
+      <div>
    <h1>Live</h1>
       </div>
       <div>
