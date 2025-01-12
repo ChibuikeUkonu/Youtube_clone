@@ -25,7 +25,7 @@ const [hoveredVideo, setHoveredVideo] =useState(null)
 
   return (
     <div>
-    <div className={styles.everything}>
+    {/* <div className={styles.everything}>
       <div className={styles.all}>
       <h1>All</h1>
       </div>
@@ -51,25 +51,12 @@ const [hoveredVideo, setHoveredVideo] =useState(null)
      <h1>Skills</h1>
       </div>
       <div>
-    <h1>Bitcoins</h1>
+    <button>Bitcoins</button>
       </div>
-      <div>
-    <h1>Gaming</h1>
-      </div>
-      <div>
-    <h1>Wealth</h1>
-      </div>
-      <div>
-        <h1>Graphic Design</h1>
-      </div>
-      <div>
-   <h1>Live</h1>
-      </div>
-      <div>
-   <h1>Podcast</h1>
-      </div>
+      
+    
       <img src="./see all.png" alt="" />
-      </div>
+      </div> */}
     <div className={styles.container}>
       {
         result.map((eachItem, index, array)=>(
