@@ -25,7 +25,7 @@ const [hoveredVideo, setHoveredVideo] =useState(null)
 
   return (
     <div>
-    {/* <div className={styles.everything}>
+    <div className={styles.everything}>
       <div className={styles.all}>
       <h1>All</h1>
       </div>
@@ -56,7 +56,7 @@ const [hoveredVideo, setHoveredVideo] =useState(null)
       
     
       <img src="./see all.png" alt="" />
-      </div> */}
+      </div>
     <div className={styles.container}>
       {
         result.map((eachItem, index, array)=>(
